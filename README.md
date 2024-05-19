@@ -95,17 +95,92 @@ Despues del balanceo mejoró la correlación de variables con la variable objeti
 # CONSTRUCCIÓN DE MODELOS 
 
 * Se evaluaron 4 modelos de clasificación
+  
   > Regresión Logística
+  
   > Árbol de Decisión
+  
   > Random Forest
+  
   > Naive Bayes
 
+### REGRESIÓN LOGÍSTICA
+
+![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/6ea3547a-3d69-4eba-a02b-d9722abc311c)
+
+![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/81d84a69-c95f-4158-a9d4-3c801b9b4a13)
+
+![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/4c913a81-5583-4f1d-8f9d-145a39c10514)
+
+### ÁRBOL DE DECISIÓN
+
+![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/f779d21c-f9f9-4b40-a85c-1c1b8376c320)
+
+![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/a09b8454-3b7c-4db2-9d0b-1b658d9fc16d)
+
+![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/7a2e3c35-c6dc-4a67-8318-bd23cac90446)
+
+![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/3806cbac-c256-40ee-b6ee-d018d1a7c243)
+
+### RANDOM FOREST
+
+![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/82207228-4d0e-46c7-87e9-e5aa66e79574)
+
+![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/9ff07269-6f62-4d25-a243-0f4e51cbc4a4)
+
+![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/3804202d-ba3c-4e76-8ac7-9d2333aaebec)
+
+![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/add674c1-c337-4c22-99f9-3c7ecbe60066)
+
+### NAIVE BAYES
+
+![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/a6fa489b-fec5-4e86-b270-1b05742b79ca)
+
+![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/aa3a0df3-5f3c-4659-a3e0-f4e59d385e76)
+
+![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/f4a2d894-0088-4882-ae34-bd8d64886239)
+
+![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/4e6dd9fa-80c0-4440-bccd-ee10a59c90a8)
+
+# SELECCIÓN DEL MODELO
+
+* Comparativo de las métricas de todos los modelos analizados
+
+![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/52897a85-b571-4dee-afae-78d277f19084)
+
+![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/3a7e2fd4-aaef-4660-8e07-e89803f65865)
+
+# CONCLUSIONES
+
+1. <ins>Regresión Logística:</ins>
+* Tiene un rendimiento moderado en términos de precisión, recall y F1-Score, con valores alrededor del 85%.
+* El valor de AUC es razonablemente bueno, alrededor del 93%, lo que indica una capacidad aceptable del modelo para distinguir entre las clases.
+
+2. <ins>Árbol de Decisión:</ins>
+* Muestra un rendimiento sólido en todas las métricas, con valores alrededor del 93-98%.
+* Su precisión, recall y F1-Score son bastante buenos, lo que indica una clasificación eficaz de las clases.
+* El valor de AUC es alto, cercano al 98.5%, lo que sugiere una excelente capacidad de discriminación entre las clases.
+
+3. <ins>Random Forest:</ins>
+* Exhibe un rendimiento mucho mejor que el Árbol de Decisión en términos de precisión, recall y F1-Score, con valores alrededor del 95-99%.
+* Su AUC es ligeramente superior al del Árbol de Decisión, indicando una mejor capacidad para distinguir entre las clases.
+* Es una opción sólida y estable debido a la naturaleza de ensemble del modelo.
+
+4. <ins>Naive Bayes:</ins>
+* Tiene un rendimiento aceptable en términos de recall y AUC, con valores del 100% y alrededor del 93%, respectivamente.
+* Sin embargo, su precisión y F1-Score son más bajos en comparación con los otros modelos, lo que indica una menor capacidad para clasificar correctamente las clases.
+
+> **En conclusión, El Random forest muestra un rendimiento superior al Árbol de Decisión. Sin embargo, se puede concluir que ambos modelos muestran en términos generales un rendimiento sólido y estable, dependerá de los requerimientos que tengamos.**
+
+> **La Regresión Logística, aunque tiene un rendimiento moderado, sigue siendo una opción viable, especialmente si se valora la interpretabilidad del modelo.**
+
+> **El Naive Bayes muestra un rendimiento aceptable en algunas métricas, pero su precisión y F1-Score son más bajos en comparación con otros modelos.**
+
+> **La elección entre estos modelos puede depender de las necesidades específicas del problema, como la interpretación del modelo, el tiempo de ejecución y la estabilidad del rendimiento.**
+
+> **Es así, que los modelos Random Forest y Árbol de Decisión resultaron ser excelentes, Si bien nos decantamos por el modelo Random Forest por sus excelente métricas obtenidas y por que es un modelo estable y robusto, no podríamos descartar al Árbol de decisión, porque nos dió unas métricas aceptables, y si requerimos de mayor rapidez y tenemos menos poder de computo podría ser una opción a considerar.**
 
 
 
 
 
-
-
-
-             
