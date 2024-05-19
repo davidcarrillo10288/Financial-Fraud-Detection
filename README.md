@@ -1,4 +1,4 @@
-## Financial-Fraud-Detection
+# Financial-Fraud-Detection
 
 ![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/e2154d67-760c-4b6e-b973-12b155e1ab96)
 
@@ -11,6 +11,7 @@ Los datos originales son de kaggle y tienen alrededor de 6 millones de registros
 
 ![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/0e8542d0-0907-4418-ab86-86cbae61cde2)
 Link Polars: https://docs.pola.rs/
+
              https://docs.pola.rs/docs/python/version/0.18/reference/dataframe/api/polars.DataFrame.to_dummies.html
 
 
