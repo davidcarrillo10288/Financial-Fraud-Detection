@@ -28,5 +28,24 @@ Link Kaggle: https://www.kaggle.com/datasets/ealaxi/paysim1
 
 * Analizaremos que columnas son importantes para nuestros posteriores análisis y cuales descartaremos. Adicionalmente se evaluará el tratamiento de variables categóricas con el método de One-Hot encoding y creación de nuevas variables utilizando el Feature Engineering de las variables.
 
+![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/f8b99eaf-7af2-4f08-b72c-c375d5f269b2)
+
+![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/c4a76b95-e774-49d7-a600-26892e78ff83)
+
+![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/e780f06c-d35b-473d-8256-2a4e919c7e09)
+
+* Mostramos el Nuevo Dataset:
+
+![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/bc00feea-a92d-4d92-b563-3047787e6405)
+
+* Eliminamos Variables no Relevantes y convertimos a variables Dummies:
+
+![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/db3b0d20-7070-4e8a-93de-e8e4ff86de5a)
+
+
+
+
+
+
 
              
