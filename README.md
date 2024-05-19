@@ -42,6 +42,37 @@ Link Kaggle: https://www.kaggle.com/datasets/ealaxi/paysim1
 
 ![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/db3b0d20-7070-4e8a-93de-e8e4ff86de5a)
 
+# ANÁLISIS EXPLORATORIO DE DATOS
+
+* Analizando la variable Objetivo:
+
+![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/03d7ce5a-c186-4d46-ade6-552584a568ee)
+
+* También se analizan multiples variables
+
+![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/2f23b90e-d3c3-4281-9beb-b99a386203d0)
+
+* Se realiza el Análisis Bivariado y Multivariado para sacar conclusiones
+
+![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/68bbc1ff-7b8a-464d-85f8-36c9fb1fc576)
+
+![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/97408721-0c3a-45d2-bd86-c114d1a63102)
+
+![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/105bc9c0-161c-4240-a668-0630f1aaeefd)
+
+![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/80c7949d-c55f-49ad-b9f3-58f15d74f388)
+
+![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/ea1e7f18-5ef3-43a0-9fd9-0348472d07a6)
+
+
+
+
+
+
+
+
+
+
 
 
 
