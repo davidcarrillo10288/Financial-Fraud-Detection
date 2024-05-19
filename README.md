@@ -64,12 +64,41 @@ Link Kaggle: https://www.kaggle.com/datasets/ealaxi/paysim1
 
 ![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/ea1e7f18-5ef3-43a0-9fd9-0348472d07a6)
 
+![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/8caee353-c582-478b-9b3e-b295cc1ee90d)
 
+* Analizando los datos solo Fraudulentos
 
+![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/cce1f088-f0b1-4ff4-96e3-6670aa08df40)
 
+![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/5e58b4fd-a285-43c5-a629-fe1c2ff60385)
 
+![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/d9589c48-d0c0-46c6-a8e0-c6bf3a6aae69)
 
+* Matriz de Correlación
 
+Después de analizar las variables en el Heatmap, decidimos eliminar algunas variables que consideramos que no aportaban valor y generaban multicolinealidad. Asimismo, decidimos mantener algunas que consideramos importantes por más que quizás nos aporten correlación.
+
+De esta manera, el nuevo Heatmap resultante es el siguiente:
+
+![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/d0e32a93-dae6-4c7e-8005-4d87f61a33fd)
+
+* Realizamos Balanceo de Datos debido a que la variable objetivo, se encuentra muy desbalanceada
+
+![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/d199e822-ff0a-46e5-ae25-debd7e51111e)
+
+![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/6fa3fe52-3703-4264-8e58-60e3ff749c26)
+
+Despues del balanceo mejoró la correlación de variables con la variable objetivo
+
+![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/0126f03d-ccef-40e8-a95f-793fda55e996)
+
+# CONSTRUCCIÓN DE MODELOS 
+
+* Se evaluaron 4 modelos de clasificación
+  > Regresión Logística
+  > Árbol de Decisión
+  > Random Forest
+  > Naive Bayes
 
 
 
