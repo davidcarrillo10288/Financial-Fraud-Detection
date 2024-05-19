@@ -1,4 +1,4 @@
-# Financial-Fraud-Detection
+## Financial-Fraud-Detection
 
 ![image](https://github.com/davidcarrillo10288/Financial-Fraud-Detection/assets/104275645/e2154d67-760c-4b6e-b973-12b155e1ab96)
 
